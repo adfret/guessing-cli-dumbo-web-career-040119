@@ -13,7 +13,9 @@ def run_guessing_game
       puts "The computer guessed #{number}."
       end
 
-p  run 
+      puts "Guess a number between 1 and 6"
+      number = rand(10)
+      answer = gets.chomp
 
   end
 
